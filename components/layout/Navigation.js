@@ -70,7 +70,7 @@ const Navigation = () => {
   }
 
   return (
-    <div className="flex flex-row gap-4 items-center">
+    <div className="flex flex-row gap-4 items-center justify-between">
       <Link href="/docs/how-to-use">
         <a className="pr-3 text-sm border-r-2 md:text-lg border-drip-black/20 hover:text-drip-black/80">
           How to use
@@ -80,10 +80,10 @@ const Navigation = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          className="inline-flex items-center text-sm md:text-lg group hover:text-drip-black/80 border-r-2 border-drip-black/20"
+          className="inline-flex items-center pr-3 text-sm  md:text-lg group hover:text-drip-black/80 border-r-2 border-drip-black/20"
           href={TWITTER_LINK}
         >
-          <i className="text-lg ri-twitter-line group-hover:-rotate-12 "></i>{" "}
+          <i className="text-lg ri-twitter-line group-hover:-rotate-12"></i>{" "}
           Share on twitter
         </a>
       </div>
