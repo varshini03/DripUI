@@ -35,10 +35,12 @@ export default function Navbar({ navbar }) {
                 </li>
               ))}
             </ul>
+            <div className='relative flex items-center justify-center w-12 h-12 cursor-pointer'>
             <label
               htmlFor={`${nav.id}-checkbox`}
               className={desktopPreview ? nav.labelStyle : nav.mobileLabelStyle}
             ></label>
+            </div>
           </nav>
         ))}
         <button
